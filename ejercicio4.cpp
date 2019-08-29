@@ -9,12 +9,23 @@ Escribir un programa que imprima lo siguiente:
 1234567
 
 */
-
 #include <iostream>
-using std::cout;
-
+using namespace std;
 int main() {
+    int y=5,a,b=2,c=1;
 
+    for (int i=1;i<7;i++){
+        a=7-y;
+        y--;
 
-    return 0;
+        for (int x=0;x<b;x++){
+            cout<<c+x;
+        }
+
+        for(int j=0;j<=y;j++){
+            cout<<"*";}
+
+        b++;
+        cout<<"\n";
+    }
 }

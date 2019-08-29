@@ -67,41 +67,43 @@ void mostrarMenu() {
 
 
 int main() {
-    int x,y,z;
+    int x, y, z;
     char w;
     mostrarMenu();
-    do{
-        cout<<"Eliga una opcion del menu: ";cin>>x;
-        cout<<"Ingrese el primer numero: ";cin>>y;
-        cout<<"Ingrese el segundo numero: ";cin>>z;
+    do {
+        cout << "Eliga una opcion del menu: ";
+        cin >> x;
+        cout << "Ingrese el primer numero: ";
+        cin >> y;
+        cout << "Ingrese el segundo numero: ";
+        cin >> z;
 
-        if (x==1){
-            cout<<sumar(y,z);
-            cout<<"\n Continuar?";
-            cin>>w;
+        if (x == 1) {
+            cout << sumar(y, z);
+            cout << "\n Continuar?";
+            cin >> w;
         }
-        if (x==2){
-            cout<<restar(y,z);
-            cout<<"\n Continuar?";
-            cin>>w;
+        if (x == 2) {
+            cout << restar(y, z);
+            cout << "\n Continuar?";
+            cin >> w;
         }
-        if (x==3){
-            cout<<multiplicar(y,z);
-            cout<<"\n Continuar?";
-            cin>>w;
+        if (x == 3) {
+            cout << multiplicar(y, z);
+            cout << "\n Continuar?";
+            cin >> w;
         }
-        if (x==4){
-            cout<<dividir(y,z);
-            cout<<"\n Continuar?";
-            cin>>w;
+        if (x == 4) {
+            cout << dividir(y, z);
+            cout << "\n Continuar?";
+            cin >> w;
         }
-        if (x==5){
-            cout<<modulo(y,z);
-            cout<<"\n Continuar?";
-            cin>>w;
+        if (x == 5) {
+            cout << modulo(y, z);
+            cout << "\n Continuar?";
+            cin >> w;
         }
-    }while(w=='y');
-
+    } while (w == 'y');
 
 
     return 0;

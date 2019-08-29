@@ -43,9 +43,9 @@ int mediana(vector<int> &lista) {
 }
 
 int main() {
-    cout<<"Calcular la mediana de los numeros ingresados\n\n";
+    cout << "Calcular la mediana de los numeros ingresados\n\n";
     vector<int> leer_usuario = leerConsola();
     int mediana_elemento = mediana(leer_usuario);
-    cout<<"La mediana es: "<<mediana_elemento<<"\n";
+    cout << "La mediana es: " << mediana_elemento << "\n";
 
 }

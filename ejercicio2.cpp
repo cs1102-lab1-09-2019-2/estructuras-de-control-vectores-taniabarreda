@@ -37,9 +37,8 @@ int moda(vector<int> &lista) {
 
 
 int main() {
-    cout << "Calcular la moda de los numeros ingresados\n\n";
+    cout<<"Calcular la moda de los numeros ingresados\n\n";
     vector<int> leer_usuario = leerConsole();
     int moda_elemento = moda(leer_usuario);
-    cout << "La moda es: " << moda_elemento << "\n";
+    cout<<"La moda es: "<<moda_elemento<<"\n";
 }
-

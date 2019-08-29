@@ -4,9 +4,6 @@
 using namespace std;
 
 
-//float promedio(vector<int> &lista);
-//vector<int> leerConsola();
-
 std::vector<int> leerConsola() {
     //Ingrese un numero positivo, escriba -1 si ya no quiere ingresar mas numeros:
     cout<<"Ingrese numeros positivos, escriba -1 si ya no quiere ingresar mas numeros:\n";
@@ -40,8 +37,8 @@ float promedio(vector<int> &lista) {
 }
 
 int main() {
-    cout << "Calcular el promedio de los ingresados\n\n";
+    cout<<"Calcular el promedio de los ingresados\n\n";
     vector<int> leer_usuario = leerConsola();
     float promedio_elemento = promedio(leer_usuario);
-    cout << "El promedio es: " << fixed << setprecision(2) << promedio_elemento << "\n";
+    cout<<"El promedio es: "<<fixed<<setprecision(2)<<promedio_elemento<<"\n";
 }

@@ -1,9 +1,9 @@
 # Ejercicios Estructuras de Control
 
-Nombre:
+Nombre: Tania Araceli Barreda Galvez
 --
 
-Github Username:
+Github Username: taniabarreda
 --
 
 Instrucciones:
